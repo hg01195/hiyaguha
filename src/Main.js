@@ -17,7 +17,7 @@ class Main extends Component {
           <div id='stars'></div>
           <div id='stars2'></div>
           <div id='stars3'></div>
-          <h1>HIYA</h1>
+          <h1>Hiya.Guha</h1>
           <ul className="header">
             <li><Link exact="true" to="/">HOME</Link></li>
             <li><Link to="/stuff">RESUME</Link></li>

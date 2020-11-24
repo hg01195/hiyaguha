@@ -80,15 +80,13 @@ h2, p, ul, li {
   h1 {
     display: inline;
     position: relative;
-    right: 10vw;
-    left: 10vw;
-    font: 200px Helvetica, Sans-Serif;
-    letter-spacing: -5px;
+    font: 150px Helvetica, Sans-Serif;
+    letter-spacing: -7px;
     color: rgba(63,94,251,100); 
   }
   
   h1:after {
-    content: "HIYA";
+    content: "Hiya.Guha";
     position: absolute; left: 10px; top: 5px;
     color: rgba(70,202,252,100);   
   }
