@@ -80,7 +80,7 @@ h2, p, ul, li {
   h1 {
     display: inline;
     position: relative;
-    font: 150px Helvetica, Sans-Serif;
+    font: 100px Helvetica, Sans-Serif;
     letter-spacing: -7px;
     color: rgba(63,94,251,100); 
   }
@@ -91,10 +91,49 @@ h2, p, ul, li {
     color: rgba(70,202,252,100);   
   }
 
-  /* h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-  } */
+  button {
+    -webkit-appearance: none;
+  background: -webkit-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
+  background: linear-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
+  background-size: 500%;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  color: #111;
+  cursor: pointer;
+  font: 1.3em Raleway, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 4rem;
+  letter-spacing: 0.05em;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 9rem;
+  }
+
+  button:hover {
+    animation-name: gradient;
+    -webkit-animation-name: gradient;
+    animation-duration: 2s;
+    -webkit-animation-duration: s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
 
   ul.header li {
     display: inline;
@@ -103,10 +142,10 @@ h2, p, ul, li {
   }
   ul.header {
     background-color: #111;
-    width: 75vw;
+    width: 78vw;
     border-radius: 10px;
   }
-  ul.header li a {
+  ul.header li {
     color: #FFF;
     font-weight: bold;
     text-decoration: none;
@@ -114,13 +153,17 @@ h2, p, ul, li {
     display: inline-block;
   }
 
-  ul.header li a:hover {
-    text-decoration: underline;
+  .underline {
+    background-color: #111;
+    width: 440px;
+    height: 20px;
+    border-radius: 10px;
   }
+
   .content {
     background-color: #111;
     padding: 20px;
-    width: 75vw;
+    width: 400px;
     border-radius: 10px;
   }
   .content h2 {
@@ -140,6 +183,7 @@ h2, p, ul, li {
 .content a {
   color: rgb(156, 120, 221);
 }
+
   #theMenu {
     position: fixed;
     left: 0;

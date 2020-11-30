@@ -6,33 +6,36 @@ import {
   Switch
 } from "react-router-dom";
 import Home from "./Home";
-import Stuff from "./Stuff";
-import Contact from "./Contact";
 
 class Main extends Component {
 
   render() {
     return (
-      <BrowserRouter>
-          <div id='stars'></div>
-          <div id='stars2'></div>
-          <div id='stars3'></div>
-          <h1>Hiya.Guha</h1>
-          <ul className="header">
-            <li><Link exact="true" to="/react_spa/">HOME</Link></li>
-            <li><Link to="/react_spa/stuff">RESUME</Link></li>
-            <li><Link to="/react_spa/contact">CONTACT</Link></li>
-          </ul>
-          <div className="content">
-            <Switch>
-              <Route path="/react_spa/stuff" component={Stuff} />
-              <Route path="/react_spa/contact" component={Contact} />
-              <Route path="/react_spa/" component={Home} />
-            </Switch>
-          </div>
-          <br>
-          </br>
-      </BrowserRouter>
+      <div>
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <br></br><br></br><br></br>
+        <button><a target="_blank" style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/hiyaguha/">LinkedIn🔗</a></button>
+        <br></br><br></br><br></br>
+        {/* <button style={{marginLeft:"130px"}}>
+        <a target="_blank" style={{ textDecoration: 'none'}} href="https://www.scribd.com/document/486325623/Hiya-Guha-Resume">Resume⚒</a></button>
+         */}
+        <br></br><br></br><br></br>
+        <br></br><br></br><br></br>
+        <h1>Hiya.Guha</h1>
+        <div className="underline">
+        </div>
+        <br></br><br></br><br></br>
+        <br></br><br></br><br></br>
+        <br></br><br></br><br></br>
+        {/* <div className="content">
+        <p>B.S. in Computer Science from Georgia Southern University</p>
+        </div> */}
+        <button>
+        <a target="_blank" style={{ textDecoration: 'none'}} href="https://github.com/hg01195">Github👩🏾‍💻</a></button>
+      
+      </div>
     );
   }
 }
