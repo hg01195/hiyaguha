@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hiyaguha/static/css/main.aa2fddd1.chunk.css",
-    "main.js": "/hiyaguha/static/js/main.ac491785.chunk.js",
-    "main.js.map": "/hiyaguha/static/js/main.ac491785.chunk.js.map",
+    "main.js": "/hiyaguha/static/js/main.b88f75f9.chunk.js",
+    "main.js.map": "/hiyaguha/static/js/main.b88f75f9.chunk.js.map",
     "runtime-main.js": "/hiyaguha/static/js/runtime-main.a3cfcb34.js",
     "runtime-main.js.map": "/hiyaguha/static/js/runtime-main.a3cfcb34.js.map",
     "static/js/2.1d3fcfc6.chunk.js": "/hiyaguha/static/js/2.1d3fcfc6.chunk.js",
     "static/js/2.1d3fcfc6.chunk.js.map": "/hiyaguha/static/js/2.1d3fcfc6.chunk.js.map",
     "index.html": "/hiyaguha/index.html",
-    "precache-manifest.011da00b4d50dcf04070f9db0275b785.js": "/hiyaguha/precache-manifest.011da00b4d50dcf04070f9db0275b785.js",
+    "precache-manifest.b56a6c357dac938177db2ad6da93c002.js": "/hiyaguha/precache-manifest.b56a6c357dac938177db2ad6da93c002.js",
     "service-worker.js": "/hiyaguha/service-worker.js",
     "static/css/main.aa2fddd1.chunk.css.map": "/hiyaguha/static/css/main.aa2fddd1.chunk.css.map",
     "static/js/2.1d3fcfc6.chunk.js.LICENSE.txt": "/hiyaguha/static/js/2.1d3fcfc6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a3cfcb34.js",
     "static/js/2.1d3fcfc6.chunk.js",
     "static/css/main.aa2fddd1.chunk.css",
-    "static/js/main.ac491785.chunk.js"
+    "static/js/main.b88f75f9.chunk.js"
   ]
 }

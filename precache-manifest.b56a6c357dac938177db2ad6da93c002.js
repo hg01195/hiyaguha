@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0af2d7544353e68b78830a5aaa1c53b4",
+    "revision": "80d30afa4257a1ccf7e36cb73c02e69d",
     "url": "/hiyaguha/index.html"
   },
   {
-    "revision": "ea656e83008d3f802897",
+    "revision": "6fe32ad750931aabd1fb",
     "url": "/hiyaguha/static/css/main.aa2fddd1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hiyaguha/static/js/2.1d3fcfc6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea656e83008d3f802897",
-    "url": "/hiyaguha/static/js/main.ac491785.chunk.js"
+    "revision": "6fe32ad750931aabd1fb",
+    "url": "/hiyaguha/static/js/main.b88f75f9.chunk.js"
   },
   {
     "revision": "21db06438e556e4fb082",
